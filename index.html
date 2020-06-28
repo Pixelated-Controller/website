@@ -5,19 +5,20 @@
 <head>
     <title>Pixelated Controller</title>
     <link href="style/main.css" rel="stylesheet">
+    <link href="style/home.css" rel="stylesheet">
 </head>
 
 <body>
   {% include nav.html %}
 
-  <div id="hero-carousel">
-    <div id="cartridge">
-      <h1 id="home-title-carousel">Introducing Cartridge</h1>
-      <p id="home-subtitle-carousel">Manage your video game backlog and track your progress, notes, and even your own review, as you play.</p>
+  <div class="home-section" id="hero-carousel">
+    <div id="cartridge" class="carousel-slide">
+      <h1 id="home-title-cartridge">Introducing Cartridge</h1>
+      <p id="home-subtitle-cartridge">Manage your video game backlog and track your progress, notes, and even your own review, as you play.</p>
     </div>
   </div>
 
-  <div id="about-us">
+  <div class="home-section" id="about-us">
     <h1 id="home-title-about">Apps for Gamers</h1>
     <p id="home-subtitle-about">We make apps to empower your gaming experience even when you're not gaming.</p>
     <p id="home-description-about">
@@ -32,7 +33,7 @@
     </p>
   </div>
 
-  <div id="blog">
+  <div class="home-section" id="blog">
     <h1 id="home-title-blog">Pixelated Blog</h1>
     <p id="home-subtitle-blog">Follow our blog for the latest updates.</p>
   </div>

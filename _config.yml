@@ -29,6 +29,10 @@ twitter_username: Pixelated_Blog
 plugins:
   - jekyll-feed
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
