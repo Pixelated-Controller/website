@@ -12,36 +12,53 @@
   .section-subtitle {
     font-size: 16px;
     line-height: 24px;
-    color: #7a7a7a;
+    color: #9a9a9a;
   }
 }
 
 #hero-carousel {
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
 
   .carousel-slide {
-    width: 75%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
     margin: auto;
-    text-decoration: none;
+    margin-top: -7%;
+
+    .carousel-slide-container {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .carousel-slide-container-split {
+      width: 50%;
+    }
 
     // Cartridge
     #carousel-title-cartridge {
       font-size: 48px;
       line-height: 64px;
-      color: #3a3a3a;
     }
 
     #carousel-subtitle-cartridge {
-      font-size: 24px;
+      font-size: 21px;
       line-height: 48px;
       color: #7a7a7a;
     }
 
     #carousel-image-cartridge {
 
+    }
+
+    #carousel-cta-cartridge {
+      width: 275px;
+      margin-top: 24px;
     }
   }
 }
@@ -54,7 +71,7 @@
   }
 
   #home-subtitle-about {
-    padding-top: 16px;
+    padding-top: 8px;
     text-align: center;
   }
 
@@ -64,6 +81,7 @@
     padding: 48px 32px 48px 32px;
     width: 50%;
     margin: auto;
+    color: #4a4a4a;
   }
 }
 
@@ -78,11 +96,9 @@
     text-align: center;
   }
 
-  #home-title-blog {
-    color: #3a3a3a;
-  }
-
-  #home-subtitle-blog {
-    padding-top: 8px;
+  #home-cta-blog {
+    margin-top: 24px;
+    width: 275px;
+    text-decoration: none;
   }
 }
