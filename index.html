@@ -1,22 +1,26 @@
-<!-- doctype html -->
-
+---
+---
+<!doctype html>
 <html lang="en">
 <head>
     <title>Pixelated Controller</title>
+    <link href="style/main.css" rel="stylesheet">
 </head>
 
 <body>
+  {% include nav.html %}
+
   <div id="hero-carousel">
     <div id="cartridge">
-      <h1 id="carousel-title">Introducing Cartridge</h1>
-      <p id="carousel-subtitle">Manage your video game backlog and track your progress, notes, and even your own review, as you play.</p>
+      <h1 id="home-title-carousel">Introducing Cartridge</h1>
+      <p id="home-subtitle-carousel">Manage your video game backlog and track your progress, notes, and even your own review, as you play.</p>
     </div>
   </div>
 
   <div id="about-us">
-    <h1 id="about-title">Apps for Gamers</h1>
-    <p id="about-subtitle">We make apps to empower your gaming experience even when you're not gaming.</p>
-    <p id="about-description">
+    <h1 id="home-title-about">Apps for Gamers</h1>
+    <p id="home-subtitle-about">We make apps to empower your gaming experience even when you're not gaming.</p>
+    <p id="home-description-about">
       Our goal at Pixelated Controller is to create everyday apps that helps enrich your life as a gamer. We aim to provide tools,
       resources, and all kinds of power-ups to make things like managing your backlog easier.
       <br />
@@ -27,4 +31,11 @@
       future updates, follow us on <a href="https://twitter.com/Pixelated_Blog">Twitter</a> and bookmark our <a href="/blog">blog</a>.
     </p>
   </div>
+
+  <div id="blog">
+    <h1 id="home-title-blog">Pixelated Blog</h1>
+    <p id="home-subtitle-blog">Follow our blog for the latest updates.</p>
+  </div>
 </body>
+
+{% include footer.html %}
