@@ -3,21 +3,44 @@
 
 .home-section {
   padding: 32px 64px 32px 64px;
+
+  .section-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #7a7a7a;
+  }
 }
 
 #hero-carousel {
   height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .carousel-slide {
-    height: 500px;
-    width: 100%;
+    width: 75%;
+    margin: auto;
+    text-decoration: none;
 
     // Cartridge
-    #home-title-cartridge {
-
+    #carousel-title-cartridge {
+      font-size: 48px;
+      line-height: 64px;
+      color: #3a3a3a;
     }
 
-    #home-subtitle-cartridge {
+    #carousel-subtitle-cartridge {
+      font-size: 24px;
+      line-height: 48px;
+      color: #7a7a7a;
+    }
+
+    #carousel-image-cartridge {
 
     }
   }
@@ -27,26 +50,39 @@
   height: 400px;
 
   #home-title-about {
-
+    text-align: center;
   }
 
   #home-subtitle-about {
-
+    padding-top: 16px;
+    text-align: center;
   }
 
   #home-description-about {
-
+    text-align: justify;
+    line-height: 24px;
+    padding: 48px 32px 48px 32px;
+    width: 50%;
+    margin: auto;
   }
 }
 
 #blog {
-  height: 200px;
+  height: 240px;
+  display: block;
+  text-decoration: none;
+
+  #home-blog-link-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
 
   #home-title-blog {
-
+    color: #3a3a3a;
   }
 
   #home-subtitle-blog {
-
+    padding-top: 8px;
   }
 }

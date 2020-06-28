@@ -12,27 +12,32 @@
   {% include nav.html %}
 
   <div class="home-section" id="hero-carousel">
-    <div id="cartridge" class="carousel-slide">
-      <h1 id="home-title-cartridge">Introducing ___</h1>
-      <p id="home-subtitle-cartridge">A description about the product here</p>
-    </div>
+    <a id="cartridge" class="carousel-slide" href="">
+      <div class="carousel-slide-container">
+        <h1 class="section-title" id="carousel-title-cartridge">Introducing ___</h1>
+        <p class="section-subtitle" id="carousel-subtitle-cartridge">A description about the product here</p>
+        <img id="carousel-image-cartridge" src="">
+      </div>
+    </a>
   </div>
 
   <div class="home-section" id="about-us">
-    <h1 id="home-title-about">Apps for Gamers</h1>
-    <p id="home-subtitle-about">We make apps to empower your gaming experience even when you're not gaming.</p>
+    <h1 class="section-title" id="home-title-about">About Us</h1>
+    <p class="section-subtitle" id="home-subtitle-about">We make apps to empower your gaming experience. Even when you're not gaming.</p>
     <p id="home-description-about">
+      Pixelated Controller is a one-person developer hoping to create the best gaming companion apps for iPhone and iPad.
+      <br><br>
       Our goal at Pixelated Controller is to create everyday apps that helps enrich your life as a gamer. We aim to provide tools,
       resources, and all kinds of power-ups to make things like managing your backlog easier.
-      <br />
-      Pixelated Controller is currently a one-person team working hard to create the best gaming companion apps out there.
     </p>
   </div>
 
-  <div class="home-section" id="blog">
-    <h1 id="home-title-blog">Pixelated Blog</h1>
-    <p id="home-subtitle-blog">Follow our blog for the latest updates.</p>
-  </div>
+  <a class="home-section" id="blog" href="">
+    <div id="home-blog-link-container">
+      <h1 class="section-title" id="home-title-blog">Pixelated Blog</h1>
+      <p class="section-subtitle" id="home-subtitle-blog">Follow our blog for the latest updates.</p>
+    </div>
+  </a>
 </body>
 
 {% include footer.html %}
