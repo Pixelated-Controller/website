@@ -10,6 +10,28 @@
 
 <body>
   {% include nav.html %}
+
+  <div id="posts-index">
+    <ul id="posts-list">
+      {% for post in site.posts %}
+      <li class="post-peek">
+        <a class="post-url" href="{{ post.url }}">
+          <div class="post-peek-container">
+            <div class="post-peek-container-split">
+              <img src="{{ post.thumbnail }}">
+            </div>
+
+            <div class="post-peek-container-split">
+              <h3>{{ post.title }}</h3>
+              <p>{{ post.subtitle }}</p>
+              <p>{{ post.date }}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </body>
 
 {% include footer.html %}
