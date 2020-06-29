@@ -1,2 +1,62 @@
 ---
 ---
+
+#blog-hero {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7fa;
+}
+
+#posts-index {
+  width: 50%;
+  padding: 64px 0px 64px 0px;
+  margin: auto;
+
+  #posts-list {
+    list-style: none;
+
+    .posts-list-post {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+
+
+      .posts-list-post-image-container {
+        width: 20%;
+      }
+
+      .post-peek-container-split {
+        width: 80%;
+      }
+
+      .post-title {
+        width: 70%;
+        text-decoration: none;
+        font-size: 20px;
+        color: #6c83a1;
+
+        &:hover {
+          color: lighten(#6c83a1, 10%);
+        }
+
+        .post-date {
+          width: 30%;
+          font-size: 14px;
+          color: #acacac;
+          margin-top: 4px;
+        }
+      }
+
+      .post-subtitle {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #7a7a7a;
+      }
+    }
+  }
+}

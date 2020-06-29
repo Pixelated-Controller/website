@@ -5,29 +5,29 @@
 <head>
     <title>Pixelated Blog - Updates from Pixelated Controller</title>
     <link href="{{ baseurl }}/style/main.css" rel="stylesheet">
-    <link href="{{ baseurl }}/style/home.css" rel="stylesheet">
+    <link href="{{ baseurl }}/style/blog.css" rel="stylesheet">
 </head>
 
 <body>
   {% include nav.html %}
 
+  <div id="blog-hero">
+    <h1>Pixelated Blog</h1>
+  </div>
+
   <div id="posts-index">
     <ul id="posts-list">
       {% for post in site.posts %}
-      <li class="post-peek">
-        <a class="post-url" href="{{ post.url }}">
-          <div class="post-peek-container">
-            <div class="post-peek-container-split">
-              <img src="{{ post.thumbnail }}">
-            </div>
+      <li class="posts-list-post">
+        <div class="posts-list-post-container-split posts-list-post-image-container">
+          <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
+        </div>
 
-            <div class="post-peek-container-split">
-              <h3>{{ post.title }}</h3>
-              <p>{{ post.subtitle }}</p>
-              <p>{{ post.date }}</p>
-            </div>
-          </div>
-        </a>
+        <div class="post-peek-container-split">
+          <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+          <p class="post-date">{{ post.date | date: "%B %-d %Y" }}</p>
+          <p class="post-subtitle">{{ post.subtitle }}</p>
+        </div>
       </li>
       {% endfor %}
     </ul>
