@@ -1,1 +1,28 @@
-{{ content }}
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Pixelated Blog - Updates from Pixelated Controller</title>
+    <link href="{{ baseurl }}/style/main.css" rel="stylesheet">
+    <link href="{{ baseurl }}/style/blog.css" rel="stylesheet">
+</head>
+
+<body>
+  {% include nav.html %}
+
+  <div id="blog-hero">
+    <h1>Pixelated Blog</h1>
+  </div>
+
+  <div id="post-content">
+    <img id ="post-image" src="{{ page.hero }}">
+    <h1 id="post-title">{{ page.title }}</h1>
+    <div id="post-metadata">
+      <p id="post-date">Published: {{ page.date | date: "%B %-d %Y" }}</p>
+    </div>
+    {{ content }}
+  </div>
+</body>
+
+{% include footer.html %}

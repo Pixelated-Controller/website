@@ -19,15 +19,19 @@
     <ul id="posts-list">
       {% for post in site.posts %}
       <li class="posts-list-post">
-        <div class="posts-list-post-container-split posts-list-post-image-container">
-          <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
-        </div>
+        <a class="posts-list-urlcontainer" href="{{ post.url }}">
+          <div class="posts-list-container">
+            <div class="posts-list-post-container-split posts-list-post-image-container">
+              <img src="{{ post.thumbnail }}">
+            </div>
 
-        <div class="post-peek-container-split">
-          <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-          <p class="post-date">{{ post.date | date: "%B %-d %Y" }}</p>
-          <p class="post-subtitle">{{ post.subtitle }}</p>
-        </div>
+            <div class="post-peek-container-split">
+              <h2 class="post-title" href="{{ post.url }}">{{ post.title }}</h2>
+              <p class="post-date">{{ post.date | date: "%B %-d %Y" }}</p>
+              <p class="post-subtitle">{{ post.subtitle }}</p>
+            </div>
+          </div>
+        </a>
       </li>
       {% endfor %}
     </ul>

@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "Welcome to Pixelated Controller!"
-subtitle: Hello gamers, app lovers, and technology enthusiasts
+subtitle: Hello gamers, app lovers, and technology enthusiasts. We are Pixelated Controller, and this is our goal.
 date:   2020-07-01 09:00:00 -0400
 categories: updates
 ---
-
-# Welcome to Pixelated Controller
 
 Today, I'm excited to formally launch Pixelated Controller to the world of gaming and technology.
 
