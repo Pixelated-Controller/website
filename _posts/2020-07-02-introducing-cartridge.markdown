@@ -7,4 +7,4 @@ thumbnail: "/cartridge/images/cartridge-game.jpeg"
 categories: updates
 ---
 
-Hi! This is a test blog for now.
+TBA
