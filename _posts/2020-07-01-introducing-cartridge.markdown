@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing Cartridge"
 subtitle: Our first app to help you manage your video game backlog.
-date:   2020-07-01 20:00:00 -0400
+date:   2020-07-01 19:00:00 -0400
 thumbnail: "/post-images/cartridge-blog-hero.png"
 categories: updates
 ---
