@@ -1,8 +1,14 @@
 ---
 ---
 
+@import "variables";
+
 .home-section {
   padding: 32px 64px 32px 64px;
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: 32px 24px 32px 24px;
+  }
 
   .section-title {
     font-size: 32px;
@@ -19,52 +25,90 @@
 #hero-carousel {
   height: 100%;
 
+  @media (max-width: $breakpoint-mobile) {
+    height: auto;
+  }
+
   .carousel-slide {
     display: flex;
     align-items: center;
     height: 100%;
     width: 100%;
     margin: auto;
-    margin-top: -7%;
+    margin-top: -5%;
+
+    @media (max-width: $breakpoint-mobile) {
+      display: block;
+      margin-top: 0;
+    }
 
     .carousel-slide-container {
-      width: 70%;
+      width: 80%;
       margin: auto;
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       justify-content: flex-start;
       flex-wrap: wrap;
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+      }
     }
 
     .carousel-slide-container-split {
       width: 50%;
+
+      @media (max-width: 900px) {
+        width: 100%;
+      }
+    }
+
+    #carousel-cartridge-content-container {
+      width: 55%;
+      padding-left: 72px;
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 100%;
+        margin-top: 32px;
+        padding-left: 0px;
+      }
+    }
+
+    #carousel-cartridge-image-container {
+      width: 45%;
+      display: flex;
+      justify-content: flex-end;
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 100%;
+        display: block;
+      }
     }
 
     // Cartridge
     #carousel-title-cartridge {
-      font-size: 48px;
-      line-height: 64px;
+      font-size: 32px;
+      line-height: 48px;
     }
 
     #carousel-subtitle-cartridge {
-      font-size: 21px;
-      line-height: 48px;
+      font-size: 18px;
+      line-height: 32px;
       color: #7a7a7a;
     }
 
-    #carousel-image-cartridge {
-
-    }
-
     #carousel-cta-cartridge {
-      width: 275px;
+      width: 250px;
       margin-top: 24px;
     }
   }
 }
 
 #about-us {
-  height: 400px;
+  padding: 32px 16px 32px 16px;
 
   #home-title-about {
     text-align: center;
@@ -82,13 +126,23 @@
     width: 50%;
     margin: auto;
     color: #4a4a4a;
+
+    @media (max-width: $breakpoint-mobile) {
+      width: 100%;
+      text-align: center;
+      padding: 32px 16px 32px 16px;
+    }
   }
 }
 
 #blog {
-  height: 240px;
+  padding: 72px 16px 72px 16px;
   display: block;
   text-decoration: none;
+
+  @media (max-width: 900px) {
+    height: auto;
+  }
 
   #home-blog-link-container {
     width: 80%;
@@ -98,7 +152,7 @@
 
   #home-cta-blog {
     margin-top: 24px;
-    width: 275px;
+    width: 220px;
     text-decoration: none;
   }
 }

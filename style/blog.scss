@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "variables";
+
 #blog-hero {
   height: 150px;
   width: 100%;
@@ -11,9 +13,14 @@
 }
 
 #posts-index {
-  width: 70%;
-  padding: 64px 0px 64px 0px;
+  width: 65%;
+  padding: 64px 24px 64px 24px;
   margin: auto;
+
+  @media (max-width: $breakpoint-mobile) {
+    height: auto;
+    width: 100%;
+  }
 
   #posts-list {
     list-style: none;
@@ -25,43 +32,46 @@
 
     .posts-list-container {
       list-style-type: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       margin-bottom: 56px;
+      border-radius: 16px;
 
-      .posts-list-post-image-container {
-        width: 20%;
+      &:hover {
+        background-color: #f9f9f9;
       }
 
-      .post-peek-container-split {
-        width: 80%;
-        padding: 16px 32px 16px 32px;
-        border-radius: 16px;
+      .posts-list-post-image-container {
+        text-align: center;
+        padding: 16px 0px 16px 0px;
 
-        &:hover {
-          background-color: #f9f9f9;
+        img {
+          max-height: 200px;
         }
       }
 
+      .post-peek-container-split {
+        margin: auto;
+        text-align: center;
+        padding: 16px 32px 16px 32px;
+      }
+
       .post-title {
-        width: 70%;
         text-decoration: none;
-        font-size: 40px;
+        font-size: 32px;
         color: #3a3a3a;
       }
 
       .post-date {
         color: #acacac;
-        font-size: 21px;
+        font-size: 18px;
         margin-top: 8px;
       }
 
       .post-subtitle {
         width: 70%;
+        margin: auto;
         font-size: 18px;
         line-height: 1.5em;
-        margin-top: 8px;
+        margin-top: 16px;
         color: #7f7f7f;
       }
     }
@@ -75,12 +85,24 @@
   margin: auto;
   padding: 72px 0px 72px 0px;
 
+  @media (max-width: $breakpoint-mobile) {
+    width: 80%;
+  }
+
   #post-title {
     font-size: 40px;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 24px;
+    }
   }
 
   #post-metadata {
     padding: 8px 0px 8px 0px;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 12px;
+    }
 
     p {
       color: #7a7a7a;
@@ -88,10 +110,14 @@
   }
 
   p {
-    font-family: serif;
+    font-family: "Noto Serif", serif;
     font-size: 24px;
     color: #3a3a3a;
     line-height: 1.5em;
     margin-bottom: 24px;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 18px;
+    }
   }
 }

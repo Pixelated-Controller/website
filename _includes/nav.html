@@ -1,7 +1,6 @@
 <nav>
   <ul>
-    <li><a href="{{ baseurl }}/">Home</a></li>
-    <li><a href="">Download Product</a></li>
-    <li><a href="{{ baseurl }}/blog">Blog</a></li>
+    <li><a href="{{ baseurl }}/" {% if page.url == "/" %} class="nav-active" {% endif %}>Home</a></li>
+    <li><a href="{{ baseurl }}/blog" {% if page.url == "/blog/" %} class="nav-active" {% endif %}>Blog</a></li>
   </ul>
 </nav>

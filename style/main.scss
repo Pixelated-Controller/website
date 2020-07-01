@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "variables";
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@
 
 html,
 body {
-  font-family: sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 17px;
   height: 100%;
   width: 100%;
@@ -17,14 +19,14 @@ body {
 }
 
 a {
-  color: lighten(#6c83a1, 10%);
+  color: #6c83a1;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 
   &:hover {
-    color: #6c83a1;
+    color: lighten(#6c83a1, 10%);
   }
 }
 
@@ -66,13 +68,18 @@ nav {
     }
   }
 
+  .nav-active {
+    color: #f54833;
+  }
+
   ul {
     list-style: none;
 
     li {
       display: inline-block;
       list-style-type: none;
-      width: 170px;
+      padding-left: 24px;
+      padding-right: 24px;
       text-align: center;
     }
   }
@@ -115,6 +122,60 @@ footer {
           text-decoration: none;
         }
       }
+    }
+  }
+}
+
+/* iPhone CSS Container */
+.iphone {
+  height: 560px;
+  width: 280px;
+  padding: 24px 16px 24px 16px;
+  text-align: center;
+  border-radius: 40px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px #d9d9d9,
+              -10px -10px 20px #ffffff;
+
+  @media (max-width: $breakpoint-mobile) {
+    height: 410px;
+    width: 215px;
+    border-radius: 32px;
+    margin: auto;
+  }
+
+  .iphone-screen {
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    width: 252px;
+    margin: auto;
+    margin-top: 24px;
+
+    @media (max-width: $breakpoint-mobile) {
+      width: 182px;
+      margin-top: 12px;
+    }
+
+    img {
+      max-width: 250px;
+
+      @media (max-width: $breakpoint-mobile) {
+        width: 180px;
+      }
+    }
+  }
+
+  .iphone-touchid {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 100%;
+    border: 2px solid #efefef;
+
+    @media (max-width: $breakpoint-mobile) {
+      height: 25px;
+      width: 25px;
     }
   }
 }

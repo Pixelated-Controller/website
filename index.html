@@ -6,23 +6,30 @@
     <title>Pixelated Controller</title>
     <link href="style/main.css" rel="stylesheet">
     <link href="style/home.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="hoveriPhone();">
   {% include nav.html %}
 
   <div class="home-section" id="hero-carousel">
     <div id="cartridge" class="carousel-slide">
       <div class="carousel-slide-container">
-        <div id="carousel-cartridge-content" class="carousel-slide-container-split">
-          <h1 class="section-title" id="carousel-title-cartridge">Introducing ___</h1>
-          <p class="section-subtitle" id="carousel-subtitle-cartridge">A description about the product here</p>
-          <a href="" class="link-button" id="carousel-cta-cartridge">Download on the App Store</a>
+        <div id="carousel-cartridge-image-container" class="carousel-slide-container-split">
+          <div class="iphone">
+            <div class="iphone-screen">
+              <img src="cartridge/images/cartridge-home.jpeg" id="carousel-image-cartridge">
+            </div>
+            <div class="iphone-touchid"></div>
+          </div>
         </div>
 
-        <div id="carousel-cartridge-image" class="carousel-slide-container-split">
-          <img src="" id="carousel-image-cartridge">
-          <p>Test</p>
+        <div id="carousel-cartridge-content-container" class="carousel-slide-container-split">
+          <h1 class="section-title" id="carousel-title-cartridge">Introducing Cartridge</h1>
+          <p class="section-subtitle" id="carousel-subtitle-cartridge">An app for managing your video game backlog</p>
+          <a href="" class="link-button" id="carousel-cta-cartridge">Coming July 2020</a>
         </div>
       </div>
     </div>
@@ -41,7 +48,7 @@
   <div class="home-section" id="blog">
     <div id="home-blog-link-container">
       <h1 class="section-title" id="home-title-blog">Pixelated Blog</h1>
-      <a href="" class="link-button" id="home-cta-blog">Follow for the latest updates</a>
+      <a href="{{ baseurl }}/blog" class="link-button" id="home-cta-blog">Follow our blog</a>
     </div>
   </div>
 </body>
