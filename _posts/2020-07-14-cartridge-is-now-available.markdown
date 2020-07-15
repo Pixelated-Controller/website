@@ -2,7 +2,7 @@
 layout: post
 title:  "Cartridge is Now Available!"
 subtitle: Manage your video game backlog with priorities, completion goals, and more!
-date:   2020-07-014 20:00:00 -0400
+date:   2020-07-14 20:00:00 -0400
 categories: updates
 ---
 
