@@ -3,7 +3,7 @@ layout: post
 title:  "One Month of Cartridge & Version 1.2.0"
 subtitle: A New Premium Feature and Many Foundational Updates
 date:   2020-08-02 00:00:00 -0400
-thumbnail: "/post-images/cartridge-blog-hero.png"
+thumbnail: "/post-images/happy-cartridge.png"
 categories: updates
 ---
 
@@ -30,8 +30,8 @@ The first of many Premium-only features is **Todo Lists**.
 
 Starting with version 1.2.0, you can add todo items to each game you're playing via a Todo List. Adding todos lets you track things like side quests, tasks, daily missions, or even main story quests as you're playing the game.
 
-![Cartridge Todo List 1](/post-images/todo-screenshot1)
-![Cartridge Todo List 1](/post-images/todo-screenshot2)
+![Cartridge Todo List 1](/post-images/todo-screenshot1.png)
+![Cartridge Todo List 1](/post-images/todo-screenshot2.png)
 
 This is something I've always wanted to track while playing games, especially as many games today have missable quests or storylines that can be easily forgotten about. I've also heard of users wanting to use this for Animal Crossing, by tracking their daily and even long-term goals while playing.
 
