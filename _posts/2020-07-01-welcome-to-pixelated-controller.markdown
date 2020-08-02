@@ -28,6 +28,6 @@ My goal with Pixelated Controller is simply: "to provide tools, resources, and a
 
 It's broad, I know, but that lets me engage on different types of work to achieve that goal. From mobile app, websites, blogs, reviews, and even sharing video game collections, there's a lot I'm excited to tackle.
 
-Our first product is an iOS app I'm expecting to announce and release very soon, and I'm both nervous and excited to see what you think about it. If you're an avid gamer, and are always looking for new things to help spice your gaming up, feel free to bookmark this blog, which I plan to keep updated with all kinds of announcements. You can also follow our [Twitter](https://twitter.com/Pixelated_Blog), where you can engage directly with me regarding questions, suggestions, or even video game tips.
+Our first product is an iOS app I'm expecting to announce and release very soon, and I'm both nervous and excited to see what you think about it. If you're an avid gamer, and are always looking for new things to help spice your gaming up, feel free to bookmark this blog, which I plan to keep updated with all kinds of announcements.
 
 Thanks for checking this out, and being a part of this journey. See you soon!

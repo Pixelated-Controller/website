@@ -53,5 +53,5 @@ sure to update you as the date nears.
 
 Cartridge will be a free app limited to tracking 10 games, with a _one-time purchase to track without limits_. We have no plans to sell a subscription for Cartridge, and hope that by making the base app free, we allow as many people to use it as possible.
 
-As this is Pixelated Controller's first app, thank you for being here and giving us a chance. Stay updated by following us on [Twitter](https://twitter.com/Pixelated_Blog), or bookmarking our [Blog](https://pixelatedcontroller.com/blog). We're excited to
+As this is Pixelated Controller's first app, thank you for being here and giving us a chance. Stay updated by following us on [Twitter](https://twitter.com/Cartridge_App), or bookmarking our [Blog](https://pixelatedcontroller.com/blog). We're excited to
 bring Cartridge to everyone and help make your gaming backlog feel more manageable.
