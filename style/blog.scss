@@ -84,9 +84,13 @@
   width: 55%;
   margin: auto;
   padding: 72px 0px 72px 0px;
+  font-family: "Noto Serif", serif;
+  font-size: 24px;
+  color: #3a3a3a;
 
   @media (max-width: $breakpoint-mobile) {
     width: 80%;
+    font-size: 18px;
   }
 
   #post-image {
@@ -123,20 +127,18 @@
   }
 
   p {
-    font-family: "Noto Serif", serif;
-    font-size: 24px;
-    color: #3a3a3a;
     line-height: 1.5em;
     margin-bottom: 24px;
-
-    @media (max-width: $breakpoint-mobile) {
-      font-size: 18px;
-    }
   }
 
   img {
     max-height: 500px;
     width: auto;
     border-radius: 3px;
+  }
+
+  ul,ol {
+    margin-left: 24px;
+    margin-bottom: 16px;
   }
 }
