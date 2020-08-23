@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Introducing Themes for Cartridge"
+subtitle: A New Premium Feature and Many Foundational Updates
+date:   2020-08-23 00:00:00 -0400
+thumbnail: "/post-images/cartridge-themes-hero.png"
+categories: updates
+---
+
+### Themes are Coming!
+
+Since first designing Cartridge, I envisioned Cartridge to be a minimally designed app using mostly out-of-the-box iOS components
+and a simple theme. Like many other apps out there, I've thought about what it means for Cartridge to offer themes. I thought hard about the question, "ow can we keep Cartridge minimal, yet offer a variety of themes"?
+
+With 1.3.0, I'm excited to announce five new themes:
+
+#### Sakura
+
+![Cartridge Sakura Theme](/post-images/theme-sakura.png)
+
+#### Ocean
+
+![Cartridge Ocean Theme](/post-images/theme-ocean.png)
+
+#### Lavender
+
+![Cartridge Lavender Theme](/post-images/theme-lavender.png)
+
+#### Chrome
+
+![Cartridge Chrome Theme](/post-images/theme-chrome.png)
+
+These four are **Cartridge Premium** themes we're offering to those who have purchased Premium as well as prospective Premium users. I think these themes will help increase the value of Premium.
+
+That said, I'm also including another new theme for all users, free or Premium:
+
+#### Cartridge Pink
+
+![Cartridge Sakura Theme](/post-images/theme-cartridge-pink.png)
+
+Cartridge Pink is a mirror of the default Cartridge theme, with the main blue and pink tints swapped.
+
+---
+
+If you have any requests or ideas for themes, let us know! I'll be adding more theme variations as future versions are implemented, and I'm open to any suggestions you have.
+
+### Enhancements to Todo Lists
+
+Creating and editing todo lists is getting a small overhaul. Now, when you tap on a todo, you'll be able to add and/or update its title using a modal pop-up. I think this serves better UX but also opens the feature up to more additions and enhancements down the line.
+
+### Backlog is now playing
+
+You'll also notice that "Backlog" has been changed to "Playing". As Cartridge evolves, I'm thinking more about how to represent all of your games in a meaningful way, with some big changes coming up. This is the first step I'm taking to make what games your playing more clear to you. Look forward to future updates!
+
+---
+
+Lastly, thank you again for using Cartridge. Stay updated by following us on [Twitter](https://twitter.com/Cartridge_App), or bookmarking our [Blog](https://pixelatedcontroller.com/blog). If you have any requests or suggestions, feel free to tweet at me, or email me (both are accessible directly in Cartridge settings as well).
+
+Happy Gaming!
