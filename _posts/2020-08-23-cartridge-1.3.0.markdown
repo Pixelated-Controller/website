@@ -44,11 +44,15 @@ Cartridge Pink is a mirror of the default Cartridge theme, with the main blue an
 
 If you have any requests or ideas for themes, let us know! I'll be adding more theme variations as future versions are implemented, and I'm open to any suggestions you have.
 
+### Track your Hours Played
+
+With 1.3.0, I'm adding a new feature and data point for those who want to track more about their game. You can now add the number of hours you've been playing a game. As you play, you can also update your Hours Played. Tracking the number of hours you've spent in a game is a great way to measure how much you've been playing.
+
 ### Enhancements to Todo Lists
 
 Creating and editing todo lists is getting a small overhaul. Now, when you tap on a todo, you'll be able to add and/or update its title using a modal pop-up. I think this serves better UX but also opens the feature up to more additions and enhancements down the line.
 
-### Backlog is now playing
+### Backlog is now "Playing"
 
 You'll also notice that "Backlog" has been changed to "Playing". As Cartridge evolves, I'm thinking more about how to represent all of your games in a meaningful way, with some big changes coming up. This is the first step I'm taking to make what games your playing more clear to you. Look forward to future updates!
 
